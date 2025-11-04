@@ -12,6 +12,13 @@ They are intended to serve as learning references and to spark new ideas for oth
 - Volodymyr Kuleshov and Stefano Ermon (with contributions from students and staff). *CS228 Probabilistic Graphical Models Notes*. Based on Stanford CS228. [Online notes](https://ermongroup.github.io/cs228-notes/) (accessed 2024).
 ---
 
+**HW3**: Estimated time - Review: 1–2 hours; Implementation: 10–12 hours.
+
+**Key Challenges:**
+- **Memory Management**: The primary bottleneck is memory constraints. Avoid storing the complete Jacobian matrix in memory. Instead, implement block-wise computation as outlined in the course notes.
+- **Efficient Implementation**: For the Levenberg-Marquardt algorithm, use in-place operations to update the diagonal elements rather than creating identity matrices with `np.eye()`, which consumes unnecessary memory.
+
+
 ## Academic Integrity Notice
 These solutions are shared solely for **educational reference**.  
 Please do **not** copy or submit them as your own work, as this may violate Princeton’s academic integrity policies.  
