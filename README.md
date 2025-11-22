@@ -7,6 +7,7 @@ They are intended to serve as learning references and to spark new ideas for oth
 
 ## Estimated Workload
 **HW1**: Scribe a lecture and submit your notes.
+
 **HW2**: Review 1–2 hours; Implementation 3–7 hours.  
   For a concise introduction to probabilistic graphical models, I recommend the **CS228 Notes**:  
 - Andrew Lin. *CS 228: Probabilistic Graphical Models — Lecture Notes by Prof. Stefano Ermon*. Winter 2024. [Online notes](https://web.stanford.edu/~lindrew/cs228.pdf)
